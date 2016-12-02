@@ -312,6 +312,7 @@ public class SimpleToast {
 
     private static Button initSetButtonMsg(String msg) {
         Button mButton = (Button) mView.findViewById(R.id.button);
+        mButton.setAllCaps(false);
         mButton.setText(msg);
         return mButton;
     }
